@@ -17,6 +17,8 @@
 import UIKit
 
 /// Basic interface between a `Router` and the UIKit `UIViewController`.
+
+/// @mockable
 public protocol ViewControllable: class {
 
     var uiviewController: UIViewController { get }
