@@ -37,6 +37,8 @@ public protocol InteractorScope: class {
 }
 
 /// The base protocol for all interactors.
+
+/// @mockable
 public protocol Interactable: InteractorScope {
 
     // The following methods must be declared in the base protocol, since `Router` internally invokes these methods.
